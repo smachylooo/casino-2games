@@ -1,0 +1,12 @@
+.roulette{
+    border-image: url('/src/assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.slots{
+    background-image: url('/src/assets/slot/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
