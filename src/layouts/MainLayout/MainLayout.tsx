@@ -5,8 +5,7 @@ interface IMainLayoutProps {}
 
 const MainLayout: FC<IMainLayoutProps> = () => {
     return (
-        <div>
-            <div>Header</div>
+        <div style={{display: 'flex', justifyContent: 'center', paddingTop: '350px'}}>
             <Outlet />
         </div>
     );
